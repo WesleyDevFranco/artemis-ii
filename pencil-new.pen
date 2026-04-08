@@ -1,0 +1,1987 @@
+{
+  "version": "2.10",
+  "children": [
+    {
+      "type": "frame",
+      "id": "iu4EJ",
+      "x": 0,
+      "y": 0,
+      "name": "Artemis II - Landing Page",
+      "clip": true,
+      "width": 1440,
+      "fill": "#0A0A0FFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "6RUVS",
+          "name": "Navbar",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "#0A0A0FCC",
+          "padding": [
+            0,
+            64
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "u9YqC",
+              "name": "navLogo",
+              "fill": "#FFFFFFFF",
+              "content": "ARTEMIS II",
+              "fontFamily": "Anton",
+              "fontSize": 24,
+              "fontWeight": "normal",
+              "letterSpacing": 3
+            },
+            {
+              "type": "frame",
+              "id": "8ouOK",
+              "name": "navLinks",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MUwKv",
+                  "name": "nl1",
+                  "fill": "#71717AFF",
+                  "content": "A MISSÃO",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "bPnRx",
+                  "name": "nl2",
+                  "fill": "#71717AFF",
+                  "content": "TRIPULAÇÃO",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "Fz7Z6",
+                  "name": "nl3",
+                  "fill": "#71717AFF",
+                  "content": "ORION",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "1mUCj",
+                  "name": "nl4",
+                  "fill": "#71717AFF",
+                  "content": "SLS",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "MwTEC",
+                  "name": "nl5",
+                  "fill": "#71717AFF",
+                  "content": "JORNADA",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "MJ1aj",
+          "name": "Hero Section",
+          "width": "fill_container",
+          "height": 900,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1775657409397.png",
+            "mode": "fill"
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            0,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "cuocQ",
+              "name": "heroEyebrow",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "NYMQW",
+                  "name": "hline1",
+                  "fill": "#4DA6FFFF",
+                  "width": 40,
+                  "height": 1
+                },
+                {
+                  "type": "text",
+                  "id": "31uoM",
+                  "name": "hlabel",
+                  "fill": "#4DA6FFFF",
+                  "content": "NASA MOON MISSION",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "rectangle",
+                  "id": "mH8SK",
+                  "name": "hline2",
+                  "fill": "#4DA6FFFF",
+                  "width": 40,
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "yseZ0",
+              "name": "htitle",
+              "fill": "#FFFFFFFF",
+              "content": "ARTEMIS II",
+              "textAlign": "center",
+              "fontFamily": "Anton",
+              "fontSize": 140,
+              "fontWeight": "normal",
+              "letterSpacing": 8
+            },
+            {
+              "type": "text",
+              "id": "gjmct",
+              "name": "hsub",
+              "fill": "#A0A0B0FF",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "A primeira missão tripulada à Lua em mais de 50 anos",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 22,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "xy3Kz",
+              "name": "hcta",
+              "fill": "#4DA6FFFF",
+              "cornerRadius": 9999,
+              "gap": 12,
+              "padding": [
+                16,
+                40
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "kwvIh",
+                  "name": "hctaTxt",
+                  "fill": "#0A0A0FFF",
+                  "content": "EXPLORAR A MISSÃO",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "on9kW",
+              "name": "harrow",
+              "fill": "#4DA6FF88",
+              "content": "↓",
+              "fontFamily": "Inter",
+              "fontSize": 28,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "cpQFm",
+          "name": "Divider",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 90,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#4DA6FF00",
+                "position": 0
+              },
+              {
+                "color": "#4DA6FF44",
+                "position": 0.5
+              },
+              {
+                "color": "#4DA6FF00",
+                "position": 1
+              }
+            ]
+          },
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "ixaIa",
+          "name": "Mission Section",
+          "width": "fill_container",
+          "height": 900,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1775657431201.png",
+            "mode": "fill"
+          },
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "EjWEi",
+              "name": "mEyebrow",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "sAyWZ",
+                  "name": "mLine",
+                  "fill": "#4DA6FFFF",
+                  "width": 40,
+                  "height": 1
+                },
+                {
+                  "type": "text",
+                  "id": "iZ4WP",
+                  "name": "mLabel",
+                  "fill": "#4DA6FFFF",
+                  "content": "A MISSÃO",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 3
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "0Az5r",
+              "name": "mTitle",
+              "fill": "#FFFFFFFF",
+              "content": "RUMO À LUA",
+              "textAlign": "center",
+              "fontFamily": "Anton",
+              "fontSize": 80,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "EA2rl",
+              "name": "mDesc",
+              "fill": "#A0A0B0FF",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "A Artemis II será o primeiro voo tripulado do programa Artemis da NASA, levando quatro astronautas em uma jornada ao redor da Lua. A missão testará os sistemas críticos da espaçonave Orion com tripulação a bordo, abrindo caminho para o retorno humano à superfície lunar.",
+              "lineHeight": 1.7,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "3Ir0i",
+              "name": "Stats Row",
+              "width": "fill_container",
+              "gap": 32,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "9efRY",
+                  "name": "stat1",
+                  "width": 200,
+                  "fill": "#FFFFFF08",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rYLU3",
+                      "name": "s1num",
+                      "fill": "#4DA6FFFF",
+                      "content": "~10",
+                      "textAlign": "center",
+                      "fontFamily": "Anton",
+                      "fontSize": 48,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HXEHY",
+                      "name": "s1lbl",
+                      "fill": "#71717AFF",
+                      "content": "DIAS DE MISSÃO",
+                      "textAlign": "center",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WQR5s",
+                  "name": "stat2",
+                  "width": 200,
+                  "fill": "#FFFFFF08",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RfBOb",
+                      "name": "s2num",
+                      "fill": "#4DA6FFFF",
+                      "content": "4",
+                      "textAlign": "center",
+                      "fontFamily": "Anton",
+                      "fontSize": 48,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eaLrP",
+                      "name": "s2lbl",
+                      "fill": "#71717AFF",
+                      "content": "ASTRONAUTAS",
+                      "textAlign": "center",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TQ4YK",
+                  "name": "stat3",
+                  "width": 200,
+                  "fill": "#FFFFFF08",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jqsq8",
+                      "name": "s3num",
+                      "fill": "#4DA6FFFF",
+                      "content": "384K",
+                      "textAlign": "center",
+                      "fontFamily": "Anton",
+                      "fontSize": 48,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yolSQ",
+                      "name": "s3lbl",
+                      "fill": "#71717AFF",
+                      "content": "KM DA TERRA",
+                      "textAlign": "center",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ES8fU",
+                  "name": "stat4",
+                  "width": 200,
+                  "fill": "#FFFFFF08",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JLajv",
+                      "name": "s4num",
+                      "fill": "#FF6B35FF",
+                      "content": "2025",
+                      "textAlign": "center",
+                      "fontFamily": "Anton",
+                      "fontSize": 48,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fNFeL",
+                      "name": "s4lbl",
+                      "fill": "#71717AFF",
+                      "content": "ANO DE LANÇAMENTO",
+                      "textAlign": "center",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "afaKs",
+          "name": "Divider 2",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 90,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#4DA6FF00",
+                "position": 0
+              },
+              {
+                "color": "#4DA6FF44",
+                "position": 0.5
+              },
+              {
+                "color": "#4DA6FF00",
+                "position": 1
+              }
+            ]
+          },
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "THScY",
+          "name": "Crew Section",
+          "width": "fill_container",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/generated-1775657449224.png",
+            "mode": "fill"
+          },
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "63iRW",
+              "name": "cEyebrow",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "S5W76",
+                  "name": "cLine",
+                  "fill": "#4DA6FFFF",
+                  "width": 40,
+                  "height": 1
+                },
+                {
+                  "type": "text",
+                  "id": "6fgnV",
+                  "name": "cLabel",
+                  "fill": "#4DA6FFFF",
+                  "content": "A TRIPULAÇÃO",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 3
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "7BUDw",
+              "name": "cTitle",
+              "fill": "#FFFFFFFF",
+              "content": "QUATRO PIONEIROS",
+              "textAlign": "center",
+              "fontFamily": "Anton",
+              "fontSize": 80,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "NqUWM",
+              "name": "cDesc",
+              "fill": "#A0A0B0FF",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Uma equipe internacional de astronautas veteranos e novatos, prontos para fazer história",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "mOivS",
+              "name": "Crew Cards",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "0vVA8",
+                  "name": "c1",
+                  "clip": true,
+                  "width": 280,
+                  "fill": "#FFFFFF08",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rTzvC",
+                      "name": "c1img",
+                      "width": "fill_container",
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1775656130672.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "3HtsR",
+                      "name": "c1info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "EXPK0",
+                          "name": "c1flag",
+                          "fill": "#4DA6FFFF",
+                          "content": "🇺🇸 COMANDANTE",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "1GOxU",
+                          "name": "c1name",
+                          "fill": "#FFFFFFFF",
+                          "content": "Reid Wiseman",
+                          "fontFamily": "Anton",
+                          "fontSize": 28,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "eJWVm",
+                          "name": "c1role",
+                          "fill": "#71717AFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Veterano da NASA com 165 dias no espaço. Liderará a missão Artemis II.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "l1DqQ",
+                  "name": "c2",
+                  "clip": true,
+                  "width": 280,
+                  "fill": "#FFFFFF08",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "EZkKb",
+                      "name": "c2img",
+                      "width": "fill_container",
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1775656170025.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "60cFh",
+                      "name": "c2info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZgmuL",
+                          "name": "c2flag",
+                          "fill": "#4DA6FFFF",
+                          "content": "🇺🇸 PILOTO",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "Yr1k7",
+                          "name": "c2name",
+                          "fill": "#FFFFFFFF",
+                          "content": "Victor Glover",
+                          "fontFamily": "Anton",
+                          "fontSize": 28,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "dxPQv",
+                          "name": "c2role",
+                          "fill": "#71717AFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Piloto de teste da NASA e veterano da ISS. Será o primeiro negro a viajar à Lua.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oCVG7",
+                  "name": "c3",
+                  "clip": true,
+                  "width": 280,
+                  "fill": "#FFFFFF08",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "gkOQ0",
+                      "name": "c3img",
+                      "width": "fill_container",
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1775656187442.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "8QBwV",
+                      "name": "c3info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gLSmW",
+                          "name": "c3flag",
+                          "fill": "#FF6B35FF",
+                          "content": "🇺🇸 ESPECIALISTA",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "VZvAF",
+                          "name": "c3name",
+                          "fill": "#FFFFFFFF",
+                          "content": "Christina Koch",
+                          "fontFamily": "Anton",
+                          "fontSize": 28,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rcqGd",
+                          "name": "c3role",
+                          "fill": "#71717AFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Recordista de permanência feminina no espaço. Primeira mulher em missão lunar.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MWJyK",
+                  "name": "c4",
+                  "clip": true,
+                  "width": 280,
+                  "fill": "#FFFFFF08",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "5o9Qy",
+                      "name": "c4img",
+                      "width": "fill_container",
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1775656222206.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "7xrKO",
+                      "name": "c4info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NjQvI",
+                          "name": "c4flag",
+                          "fill": "#FF6B35FF",
+                          "content": "🇨🇦 ESPECIALISTA",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "MNwpR",
+                          "name": "c4name",
+                          "fill": "#FFFFFFFF",
+                          "content": "Jeremy Hansen",
+                          "fontFamily": "Anton",
+                          "fontSize": 28,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "GlhmO",
+                          "name": "c4role",
+                          "fill": "#71717AFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Astronauta da CSA e ex-piloto de caça. Primeiro canadense em missão lunar.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "fCRk0",
+          "name": "Divider 3",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 90,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#4DA6FF00",
+                "position": 0
+              },
+              {
+                "color": "#4DA6FF44",
+                "position": 0.5
+              },
+              {
+                "color": "#4DA6FF00",
+                "position": 1
+              }
+            ]
+          },
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "fsJxW",
+          "name": "Orion Section",
+          "metadata": {
+            "type": "unsplash",
+            "username": "sugargirl333",
+            "link": "https://unsplash.com/@sugargirl333",
+            "author": "Peyton Clough"
+          },
+          "width": "fill_container",
+          "height": 800,
+          "fill": [
+            "#0A0A0FFF",
+            {
+              "type": "image",
+              "opacity": 0.6,
+              "enabled": true,
+              "url": "https://images.unsplash.com/photo-1760907217367-aff63fa219fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NTc3MDd8&ixlib=rb-4.1.0&q=80&w=1080",
+              "mode": "fill"
+            }
+          ],
+          "gap": 80,
+          "padding": [
+            80,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ZrUoT",
+              "name": "orionLeft",
+              "width": 500,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "BJqki",
+                  "name": "oEyebrow",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "zLiZc",
+                      "name": "oLine",
+                      "fill": "#4DA6FFFF",
+                      "width": 40,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "AM5ze",
+                      "name": "oLabel",
+                      "fill": "#4DA6FFFF",
+                      "content": "ESPAÇONAVE",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 3
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "0lPti",
+                  "name": "oTitle",
+                  "fill": "#FFFFFFFF",
+                  "content": "ORION",
+                  "fontFamily": "Anton",
+                  "fontSize": 80,
+                  "fontWeight": "normal",
+                  "letterSpacing": 4
+                },
+                {
+                  "type": "text",
+                  "id": "Ozr5P",
+                  "name": "oDesc",
+                  "fill": "#A0A0B0FF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "A cápsula Orion é a espaçonave de próxima geração da NASA, projetada para levar humanos além da órbita terrestre. Com escudo térmico capaz de suportar temperaturas de até 2.760°C na reentrada, é a nave mais avançada já construída.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "0HBMs",
+              "name": "oSpecs",
+              "width": 400,
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "5sxOb",
+                  "name": "sp1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF08",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zVBz6",
+                      "name": "sp1l",
+                      "fill": "#71717AFF",
+                      "content": "TRIPULAÇÃO",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "fF4BU",
+                      "name": "sp1v",
+                      "fill": "#FFFFFFFF",
+                      "content": "4 astronautas",
+                      "fontFamily": "Anton",
+                      "fontSize": 28,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CKUAl",
+                  "name": "sp2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF08",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WHdII",
+                      "name": "sp2l",
+                      "fill": "#71717AFF",
+                      "content": "ESCUDO TÉRMICO",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "WbuMx",
+                      "name": "sp2v",
+                      "fill": "#FF6B35FF",
+                      "content": "2.760°C",
+                      "fontFamily": "Anton",
+                      "fontSize": 28,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FFh2E",
+                  "name": "sp3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF08",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "QBxXg",
+                      "name": "sp3l",
+                      "fill": "#71717AFF",
+                      "content": "MÓDULO DE SERVIÇO",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "vrerG",
+                      "name": "sp3v",
+                      "fill": "#4DA6FFFF",
+                      "content": "ESA (Europa)",
+                      "fontFamily": "Anton",
+                      "fontSize": 28,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gCH4z",
+                  "name": "sp4",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF08",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SLn6c",
+                      "name": "sp4l",
+                      "fill": "#71717AFF",
+                      "content": "DURAÇÃO DO VOO",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "y9Pwj",
+                      "name": "sp4v",
+                      "fill": "#FFFFFFFF",
+                      "content": "~10 dias",
+                      "fontFamily": "Anton",
+                      "fontSize": 28,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "cX7Di",
+          "name": "Divider 4",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 90,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#4DA6FF00",
+                "position": 0
+              },
+              {
+                "color": "#4DA6FF44",
+                "position": 0.5
+              },
+              {
+                "color": "#4DA6FF00",
+                "position": 1
+              }
+            ]
+          },
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "kIxEh",
+          "name": "SLS Section",
+          "metadata": {
+            "type": "unsplash",
+            "username": "codypboard",
+            "link": "https://unsplash.com/@codypboard",
+            "author": "Cody Board"
+          },
+          "width": "fill_container",
+          "height": 800,
+          "fill": [
+            "#08080CFF",
+            {
+              "type": "image",
+              "opacity": 0.6,
+              "enabled": true,
+              "url": "https://images.unsplash.com/photo-1534515891283-88b2cf4d6b56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NTc3MDh8&ixlib=rb-4.1.0&q=80&w=1080",
+              "mode": "fill"
+            }
+          ],
+          "gap": 80,
+          "padding": [
+            80,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ES44X",
+              "name": "slsSpecs",
+              "width": 400,
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "oaJ1D",
+                  "name": "ssp1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF08",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "quT41",
+                      "name": "ssp1l",
+                      "fill": "#71717AFF",
+                      "content": "ALTURA",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "7wVLS",
+                      "name": "ssp1v",
+                      "fill": "#FFFFFFFF",
+                      "content": "98 metros",
+                      "fontFamily": "Anton",
+                      "fontSize": 28,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vnhf6",
+                  "name": "ssp2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF08",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "R1KzG",
+                      "name": "ssp2l",
+                      "fill": "#71717AFF",
+                      "content": "EMPUXO NO LANÇAMENTO",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "Z22mb",
+                      "name": "ssp2v",
+                      "fill": "#FF6B35FF",
+                      "content": "3.9M kg",
+                      "fontFamily": "Anton",
+                      "fontSize": 28,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tNxsQ",
+                  "name": "ssp3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF08",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zgxCO",
+                      "name": "ssp3l",
+                      "fill": "#71717AFF",
+                      "content": "BOOSTERS",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "ym3Tq",
+                      "name": "ssp3v",
+                      "fill": "#4DA6FFFF",
+                      "content": "2 × SRB",
+                      "fontFamily": "Anton",
+                      "fontSize": 28,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "1ph4x",
+              "name": "slsRight",
+              "width": 500,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NljjY",
+                  "name": "sEyebrow",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "C3p6p",
+                      "name": "sLine",
+                      "fill": "#FF6B35FF",
+                      "width": 40,
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ss1rB",
+                      "name": "sLabel",
+                      "fill": "#FF6B35FF",
+                      "content": "FOGUETE",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 3
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "XGdsL",
+                  "name": "sTitle",
+                  "fill": "#FFFFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "SPACE LAUNCH\nSYSTEM",
+                  "fontFamily": "Anton",
+                  "fontSize": 72,
+                  "fontWeight": "normal",
+                  "letterSpacing": 4
+                },
+                {
+                  "type": "text",
+                  "id": "ItKnJ",
+                  "name": "sDesc",
+                  "fill": "#A0A0B0FF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "O foguete mais poderoso já construído pela NASA. O SLS é o único foguete capaz de enviar a Orion, astronautas e cargas para a Lua em uma única missão. Com 98 metros de altura, supera o Saturn V do programa Apollo.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "hLc9X",
+          "name": "Divider 5",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 90,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#4DA6FF00",
+                "position": 0
+              },
+              {
+                "color": "#4DA6FF44",
+                "position": 0.5
+              },
+              {
+                "color": "#4DA6FF00",
+                "position": 1
+              }
+            ]
+          },
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "D2LUD",
+          "name": "Journey Section",
+          "metadata": {
+            "type": "unsplash",
+            "username": "sobalc",
+            "link": "https://unsplash.com/@sobalc",
+            "author": "lee seunghyub"
+          },
+          "width": "fill_container",
+          "fill": [
+            "#0A0A0FFF",
+            {
+              "type": "image",
+              "opacity": 0.6,
+              "enabled": true,
+              "url": "https://images.unsplash.com/photo-1767702861751-e42963734389?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NTc3MDl8&ixlib=rb-4.1.0&q=80&w=1080",
+              "mode": "fill"
+            }
+          ],
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JpgZb",
+              "name": "jEyebrow",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "dVD3b",
+                  "name": "jLine",
+                  "fill": "#4DA6FFFF",
+                  "width": 40,
+                  "height": 1
+                },
+                {
+                  "type": "text",
+                  "id": "yQE2o",
+                  "name": "jLabel",
+                  "fill": "#4DA6FFFF",
+                  "content": "A JORNADA",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 3
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "D3E9S",
+              "name": "jTitle",
+              "fill": "#FFFFFFFF",
+              "content": "ROTA PARA A LUA",
+              "textAlign": "center",
+              "fontFamily": "Anton",
+              "fontSize": 80,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "JyLYW",
+              "name": "jDesc",
+              "fill": "#A0A0B0FF",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "A trajetória da Artemis II levará a tripulação ao redor da Lua e de volta à Terra",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "6LHlM",
+              "name": "Timeline",
+              "width": 700,
+              "layout": "vertical",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "q9Ksw",
+                  "name": "t1",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NNaqr",
+                      "name": "t1dot",
+                      "width": 40,
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "Cg5ym",
+                          "name": "t1circle",
+                          "fill": "#4DA6FFFF",
+                          "width": 16,
+                          "height": 16
+                        },
+                        {
+                          "type": "rectangle",
+                          "id": "7ry3F",
+                          "name": "t1line",
+                          "fill": "#4DA6FF33",
+                          "width": 2,
+                          "height": 80
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "9WTlH",
+                      "name": "t1content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "W3ez6",
+                          "name": "t1step",
+                          "fill": "#4DA6FFFF",
+                          "content": "FASE 01",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "rhdoN",
+                          "name": "t1title",
+                          "fill": "#FFFFFFFF",
+                          "content": "Lançamento",
+                          "fontFamily": "Anton",
+                          "fontSize": 32,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "sDuGC",
+                          "name": "t1desc",
+                          "fill": "#71717AFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "O SLS decola do Kennedy Space Center na Flórida, acelerando a Orion para a órbita terrestre.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bvnZL",
+                  "name": "t2",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qPyDw",
+                      "name": "t2dot",
+                      "width": 40,
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "TY9Ss",
+                          "name": "t2circle",
+                          "fill": "#FF6B35FF",
+                          "width": 16,
+                          "height": 16
+                        },
+                        {
+                          "type": "rectangle",
+                          "id": "gge6a",
+                          "name": "t2line",
+                          "fill": "#4DA6FF33",
+                          "width": 2,
+                          "height": 80
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dlTUV",
+                      "name": "t2content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ePuQs",
+                          "name": "t2step",
+                          "fill": "#FF6B35FF",
+                          "content": "FASE 02",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "jnMkb",
+                          "name": "t2title",
+                          "fill": "#FFFFFFFF",
+                          "content": "Injeção Translunar",
+                          "fontFamily": "Anton",
+                          "fontSize": 32,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "CD4B0",
+                          "name": "t2desc",
+                          "fill": "#71717AFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "O estágio superior do SLS impulsiona a Orion em direção à Lua, saindo da órbita terrestre.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HVlmr",
+                  "name": "t3",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AixfP",
+                      "name": "t3dot",
+                      "width": 40,
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "3wSSB",
+                          "name": "t3circle",
+                          "fill": "#4DA6FFFF",
+                          "width": 16,
+                          "height": 16
+                        },
+                        {
+                          "type": "rectangle",
+                          "id": "4EU8z",
+                          "name": "t3line",
+                          "fill": "#4DA6FF33",
+                          "width": 2,
+                          "height": 80
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Uin1X",
+                      "name": "t3content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ip4ZQ",
+                          "name": "t3step",
+                          "fill": "#4DA6FFFF",
+                          "content": "FASE 03",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "ERqjK",
+                          "name": "t3title",
+                          "fill": "#FFFFFFFF",
+                          "content": "Sobrevoo Lunar",
+                          "fontFamily": "Anton",
+                          "fontSize": 32,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "txxlQ",
+                          "name": "t3desc",
+                          "fill": "#71717AFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "A Orion passa a aproximadamente 7.400 km da superfície lunar, o mais perto que humanos estarão da Lua desde 1972.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FJgw1",
+                  "name": "t4",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fR68h",
+                      "name": "t4dot",
+                      "width": 40,
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "H0ZoJ",
+                          "name": "t4circle",
+                          "fill": "#FF6B35FF",
+                          "width": 16,
+                          "height": 16
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yUpoj",
+                      "name": "t4content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "l31Dt",
+                          "name": "t4step",
+                          "fill": "#FF6B35FF",
+                          "content": "FASE 04",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "KkPr4",
+                          "name": "t4title",
+                          "fill": "#FFFFFFFF",
+                          "content": "Retorno à Terra",
+                          "fontFamily": "Anton",
+                          "fontSize": 32,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "08peM",
+                          "name": "t4desc",
+                          "fill": "#71717AFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "A cápsula Orion reentra na atmosfera terrestre a mais de 40.000 km/h e pousa no Oceano Pacífico.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "gTPCc",
+          "name": "Divider 6",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 90,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#4DA6FF00",
+                "position": 0
+              },
+              {
+                "color": "#4DA6FF44",
+                "position": 0.5
+              },
+              {
+                "color": "#4DA6FF00",
+                "position": 1
+              }
+            ]
+          },
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "9ib85",
+          "name": "Footer",
+          "metadata": {
+            "type": "unsplash",
+            "username": "hwanace",
+            "link": "https://unsplash.com/@hwanace",
+            "author": "진환 김"
+          },
+          "width": "fill_container",
+          "fill": [
+            "#050508FF",
+            {
+              "type": "image",
+              "opacity": 0.4,
+              "enabled": true,
+              "url": "https://images.unsplash.com/photo-1767702861751-e42963734389?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU2NTc3MDl8&ixlib=rb-4.1.0&q=80&w=1080",
+              "mode": "fill"
+            }
+          ],
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            60,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "3rRz4",
+              "name": "fLogo",
+              "fill": "#FFFFFFFF",
+              "content": "ARTEMIS II",
+              "fontFamily": "Anton",
+              "fontSize": 36,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "ApVQl",
+              "name": "fTagline",
+              "fill": "#71717AFF",
+              "content": "We Are Going — Together",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "TmnjJ",
+              "name": "fLinks",
+              "gap": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cYhso",
+                  "name": "fl1",
+                  "fill": "#4DA6FFFF",
+                  "content": "nasa.gov",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "iqt2l",
+                  "name": "fl2",
+                  "fill": "#4DA6FFFF",
+                  "content": "artemis.nasa.gov",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "12TGN",
+                  "name": "fl3",
+                  "fill": "#4DA6FFFF",
+                  "content": "@NASA",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "NpaxE",
+              "name": "fCopy",
+              "fill": "#71717A88",
+              "content": "Imagens: NASA/Joel Kowsky · Conteúdo educacional · 2025",
+              "fontFamily": "Geist Mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
